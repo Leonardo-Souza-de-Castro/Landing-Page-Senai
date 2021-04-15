@@ -275,7 +275,9 @@ footer span{
     }
 
     .fundo_banner{
-        height: 93%;
+        height: 721px;
+        width: 100%;
+        object-fit: cover;
     }
 
     .texto_banner{
@@ -283,13 +285,13 @@ footer span{
     }
 
     h1{
-        width: 385px;
-        font-size: 59px;
+        width: 362px;
+        font-size: 55px;
         margin-bottom: 30px;
     }
 
     .texto_banner span{
-        font-size: 38px;
+        font-size: 33px;
         margin: 45px 0 60px 0;
     }
 
@@ -357,12 +359,17 @@ footer span{
     .box_endereco{
         width: 80vw;
         position: unset;
-        height: 50vh;
+        height: 60vh;
+        padding: 17px;
     }
 
     .box_endereco p{
         font-size: 31px;
         margin-left: 0;
+    }
+
+    footer{
+        width: 100%;
     }
 
     footer span{
